@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: relative; /* 相対位置指定 */
+    width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info-item {
+    margin-bottom: 10px;
+}
+
+.info-item span {
+    margin-right: 20px;
+    white-space: nowrap; /* 文字が折り返されないようにする */
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.section-text {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-height: 100px; /* 最低の高さを設定 */
+}
+
+.creator {
+    position: absolute; /* 絶対位置指定 */
+    top: 0; /* 上からの位置 */
+    left:10;
+    margin-top: 15px; /* 上側のマージンを調整 */
+    padding: 10px;
+    background-color: #ffffff;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    white-space: nowrap; /* 文字が折り返されないようにする */
+}
