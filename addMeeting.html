@@ -1,10 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>会議作成</title>
+<link rel="stylesheet" href="css/addMeeting.css">
 </head>
 <body>
-
+<form>
+  <div class="container">
+    <h1>会議追加</h1>
+    <p><span class="required">会議名</span></p>
+    <input type="text" name="mtgTitle">
+    <p><span class="required">日時</span></p>
+    <input type="text" name="mtgDate">
+    <p>場所</p>
+    <input type="text" name="mtgPlace">
+    <p><span class="required">参加者</span></p>
+    <input type="text" name="mtgMember">
+    <p>議題</p>
+    <input type="text" name="mtgOutline">
+    <p>概要</p>
+    <textarea name="mtgTopic" rows="5"></textarea><br>
+    <input type="button" onclick="location.href='meetingMenu.html'" value="追加">
+  </div>
+</form>
 </body>
 </html>

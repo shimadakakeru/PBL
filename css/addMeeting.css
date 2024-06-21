@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 20px;
+}
+
+.container {
+  width: 300px; 
+  padding: 40px; 
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin: 5px 0;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+input[type="button"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/*概要テキスト*/
+textarea {
+  resize: vertical; 
+  height: 100px; 
+}
+
+/*追加ボタン*/
+input[type="button"] {
+  width: 100%;
+  background-color: #0033ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #0033ff;
+}
+
+/*必須項目*/
+.required::after {
+  content: "*";
+  color: #cc0000;
+  font-size: 1.1em;
+  padding-top: -0.1em; 
+  margin-left: 0.1em;
+}
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>会議作成</title>
+<link rel="stylesheet" href="css/addMeeting.css">
+</head>
+<body>
+<form>
+  <div class="container">
+    <h1>会議追加</h1>
+    <p><span class="required">会議名</span></p>
+    <input type="text" name="mtgTitle">
+    <p><span class="required">日時</span></p>
+    <input type="text" name="mtgDate">
+    <p>場所</p>
+    <input type="text" name="mtgPlace">
+    <p><span class="required">参加者</span></p>
+    <input type="text" name="mtgMember">
+    <p>議題</p>
+    <input type="text" name="mtgOutline">
+    <p>概要</p>
+    <textarea name="mtgTopic" rows="5"></textarea><br>
+    <input type="button" onclick="location.href='meetingMenu.html'" value="追加">
+  </div>
+</form>
+</body>
+</html>
