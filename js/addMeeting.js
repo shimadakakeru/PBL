@@ -10,11 +10,22 @@ document.getElementById('addButton').onclick = function() {
     titleErrorElement.textContent = ""; // Clear any previous title error messages
     datetimeErrorElement.textContent = ""; // Clear any previous datetime error messages
 
+    var hasError = false;
+
     if (mtgTitle === "") {
         titleErrorElement.textContent = "会議名を入力してください。";
-    } else if (mtgDate === defaultDate && mtgTime === defaultTime) {
+        hasError = true;
+    }
+
+    if (mtgDate === defaultDate && mtgTime === defaultTime) {
         datetimeErrorElement.textContent = "日時を選択してください。";
-    } else {
+        hasError = true;
+    }
+
+    if (!hasError) {
         window.location.href = 'meetingMenu.html';
+    } else {
+        // エラーがある場合、ページのトップにスクロール
+        window.scrollTo(0, 0);
     }
 };
