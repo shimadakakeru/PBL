@@ -1,3 +1,40 @@
+.title {
+	Text-align: center
+}
+
+.meetingList {
+  display: block; /* ボタンをブロックレベル要素に変更 */
+  margin: 0 auto; /* ボタン全体を中央に配置 */
+}
+
+.chapter {
+  display: flex;
+  flex-direction: column; /* 縦に並べる */
+  align-items: flex-end; /* 右揃えにする */
+  margin-right: 100px;/*右のスペースを設定*/
+}
+
+.invite , .addMeeting{
+	display: block;
+	margin: 10px 0; /* ボタンの上下に余白を追加 */
+    width: 40px; /* 画像の幅に合わせてボタンの幅を設定 */
+    height: 80px; /* 画像の高さに合わせてボタンの高さを設定 */
+}
+
+/* 画像のスタイル */
+.invite img, .addMeeting img {
+    width: 100px; /* 画像をボタンのサイズに合わせる */
+    height: 100px;
+}
+
+/* ボタンのデザイン */
+.button-design, .meetingList {
+  background: #0033ff;/*ボタン色*/
+  color: #FFF;
+  width: 80px;
+  height: 40px;
+}
+
 .details {
     transition: .3s;
     overflow: hidden;
@@ -23,6 +60,8 @@
     font-size: 20px;
     font-weight: bold;
     color: #fff;
+    width:400px;/* 横幅を指定 */
+    margin:0 auto;/* 水平方向に中央配置 */
 }
 
 .details-summary:hover {
@@ -43,4 +82,5 @@
     border-bottom: 2px solid #00a5a0;
     border-left: 2px solid #00a5a0;
     border-right: 2px solid #00a5a0;
+    width:300px;
 }

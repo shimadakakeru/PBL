@@ -6,25 +6,33 @@ body {
   margin: 20px;
 }
 
+/* コンテナ */
 .container {
-  width: 300px; 
-  padding: 40px; 
-  background-color: #ffffff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-top: 10px;
+    width: 300px; 
+    max-height: 80vh; /* コンテナの最大高さを設定 */
+    overflow-y: auto; /* 縦方向にスクロール可能にする */
+    padding: 40px; /* パディングを追加 */
+    border: 1px solid #ccc; /* ボーダーを追加 */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* シャドウを追加 */
+    background-color: #ffffff; /* 背景色を追加 */
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
+/* タイトル */
 h1 {
   text-align: center;
 }
 
+/* 段落 */
 p {
   margin: 5px 0;
 }
 
+/* 入力フィールド */
 input[type="text"],
-input[type="password"],
+input[type="date"],
+input[type="time"],
 textarea,
 input[type="button"] {
   width: calc(100% - 20px);
@@ -34,13 +42,13 @@ input[type="button"] {
   border-radius: 4px;
 }
 
-/*概要テキスト*/
+/* 概要テキスト */
 textarea {
   resize: vertical; 
   height: 100px; 
 }
 
-/*追加ボタン*/
+/* 追加ボタン */
 input[type="button"] {
   width: 100%;
   background-color: #0033ff;
@@ -50,51 +58,27 @@ input[type="button"] {
 }
 
 input[type="button"]:hover {
-  background-color: #0033ff;
+  background-color: #0022cc;
 }
 
-/*必須項目*/
+/* 必須項目 */
 .required::after {
   content: "*";
   color: #cc0000;
   font-size: 1.1em;
-  padding-top: -0.1em; 
+  /*---- "*"の位置 ----*/
+  vertical-align: -0.15em; 
+  /*---- ここまで ----*/
   margin-left: 0.1em;
 }
 
+/* 日付項目 */
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+}
 
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>会議作成</title>
-<link rel="stylesheet" href="css/addMeeting.css">
-</head>
-<body>
-<form>
-  <div class="container">
-    <h1>会議追加</h1>
-    <p><span class="required">会議名</span></p>
-    <input type="text" name="mtgTitle">
-    <p><span class="required">日時</span></p>
-    <input type="text" name="mtgDate">
-    <p>場所</p>
-    <input type="text" name="mtgPlace">
-    <p><span class="required">参加者</span></p>
-    <input type="text" name="mtgMember">
-    <p>議題</p>
-    <input type="text" name="mtgOutline">
-    <p>概要</p>
-    <textarea name="mtgTopic" rows="5"></textarea><br>
-    <input type="button" onclick="location.href='meetingMenu.html'" value="追加">
-  </div>
-</form>
-</body>
-</html>
+input,
+label {
+  margin: 0.4rem 0;
+}
