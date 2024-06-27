@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .disp-img{
 
@@ -5,39 +6,43 @@
     width:auto;                                   /* 横幅のサイズを指定    */
     height:400pX;                                 /* 縦幅のサイズを指定    */
 }
+=======
+>>>>>>> 8ff90a6a4580b7f244074c427587bc6474d7dff0
 body {
+    background-color: #006699;
+}
+
+.sl {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0; /* 背景色を設定 */
+    justify-content: flex-end;
+    width: 90%;
+    padding-right: 100px;
+    margin-bottom: 0; 
 }
 
-.container {
-    width: 300px;
-    padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 影を追加 */
-    text-align: center; /* ボタンを中央揃えにする */
-}
-
-input[type="button"] {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px; /* フォントサイズを設定 */
-    background-color: #0077ff;
+.sl a {
     color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    text-decoration: none;
+    margin-left: 100px;
 }
 
-input[type="button"]:hover {
-    background-color: #45a049;
+.sl a:hover {
+    color: white;
+    text-decoration: none;
 }
+<<<<<<< HEAD
+=======
+
+.GatherWise {
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    margin-top: 0px; /* 上部のマージンを追加 */
+}
+
+.bird {
+    display: block;
+    margin: 20px auto 0;
+    width: 470px;
+}
+>>>>>>> 8ff90a6a4580b7f244074c427587bc6474d7dff0
