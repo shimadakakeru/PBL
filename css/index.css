@@ -1,6 +1,68 @@
+<<<<<<< HEAD
 .disp-img{
 
     background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */              
     width:auto;                                   /* 横幅のサイズを指定    */
     height:400pX;                                 /* 縦幅のサイズを指定    */
 }
+=======
+<<<<<<< HEAD
+@charset "UTF-8";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* 背景色を設定 */
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 影を追加 */
+    text-align: center; /* ボタンを中央揃えにする */
+}
+
+input[type="button"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* フォントサイズを設定 */
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+>>>>>>> 1d25b06eba6544bfb35cdbb500b257a282f05089
+>>>>>>> 17c1209f4a5b355754cad542daf9e5a03aa14416
