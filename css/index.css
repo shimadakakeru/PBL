@@ -1,33 +1,10 @@
-<<<<<<< HEAD
+
 .disp-img{
 
     background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */              
     width:auto;                                   /* 横幅のサイズを指定    */
     height:400pX;                                 /* 縦幅のサイズを指定    */
 }
-=======
-<<<<<<< HEAD
-@charset "UTF-8";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 body {
     display: flex;
     justify-content: center;
@@ -64,5 +41,3 @@ input[type="button"] {
 input[type="button"]:hover {
     background-color: #45a049;
 }
->>>>>>> 1d25b06eba6544bfb35cdbb500b257a282f05089
->>>>>>> 17c1209f4a5b355754cad542daf9e5a03aa14416
