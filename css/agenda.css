@@ -60,7 +60,7 @@ body {
     max-width: 800px;
 }
 
-.load{
+.save{
 	margin-right: 50px;
 }
 
@@ -95,9 +95,6 @@ body {
 }*/
 
 
-.load{
-}
-
 /* 入力フィールド */
 input[type="text"],
 input[type="date"],
@@ -109,7 +106,6 @@ textarea{
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-↑を修正
 
 /* 日付項目 */
 label {
