@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-
-.disp-img{
-
-    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */              
-    width:auto;                                   /* 横幅のサイズを指定    */
-    height:400pX;                                 /* 縦幅のサイズを指定    */
-}
-=======
->>>>>>> 8ff90a6a4580b7f244074c427587bc6474d7dff0
 body {
     background-color: #006699;
 }
@@ -30,8 +20,6 @@ body {
     color: white;
     text-decoration: none;
 }
-<<<<<<< HEAD
-=======
 
 .GatherWise {
     color: white;
@@ -46,4 +34,3 @@ body {
     margin: 20px auto 0;
     width: 470px;
 }
->>>>>>> 8ff90a6a4580b7f244074c427587bc6474d7dff0
