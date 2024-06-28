@@ -1,16 +1,33 @@
-<!doctype html>
-<html xmlns:th="http://www.thymeleaf.org">
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title></title>
-<link rel="stylesheet" href="css/meetingList.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会議一覧</title>
+    <link rel="stylesheet" href="css/meetingList.css">
 </head>
 <body>
-    <a href="home.html" class="back-button">Topへ</a>
-    <h1>会議一覧</h1>
-    <a href="addMeeting.html" class="addMtgBtn">会議追加</a>
-    <div class="allMtgList">
-        
+    <div class="container">
+        <h2>会議一覧</h2>
+        <div class="meeting">
+            <h3>会議A</h3>
+            <p>タスク名: Project Kickoff</p>
+            <p>備考: Initial project discussion</p>
+            <p>開催日時: 2024-06-21</p>
+            <p>場所: Room 101</p>
+            <p>概要: Discuss project plan</p>
+            <button>削除</button>
+        </div>
+        <div class="meeting">
+            <h3>会議B</h3>
+            <p>タスク名: Design Review</p>
+            <p>備考: Review design specs</p>
+            <p>開催日時: 2024-06-22</p>
+            <p>場所: Room 202</p>
+            <p>概要: Finalize design</p>
+            <button>確定</button>
+        </div>
+        <button>戻る</button>
     </div>
 </body>
 </html>
