@@ -7,41 +7,44 @@
 </head>
 <body>
 	<form>
-		<div class="blocktext">
+		<div class="container">
 			<!-- 案内メール本文 -->
-			<p> 件名：あとから取得する</p>
-			<p>	株式会社  井上システム </p>
-			<p>	管理本部  企画課  課長  井上 拓海  様</p>
+			<h1>案内メール</h1>
+			<p> 　件名　：<input type="text" class=""></p>
+			<p>	　会社名：<input type="text" class=""></p>
+			<p>	　名前　：<input type="text" class=""></p>
 
-			<p>	平素よりお世話になっております。</p>
-			<p>	黒瀨コーポレーション株式会社</p>
+			<p>	　平素よりお世話になっております。</p>
+			<p>	　宛先社名：<input type="text" class=""></p>
 			<p>	■お打ち合わせの詳細</p>
-			<p>	日時：2月24日（木曜日）13：00〜15：00</p>
-			<p>	場所：弊社7階  会議室D</p>
-			<p>	住所：〇〇市△△町1－2－3 CDEFビル（添付の地図をご参照ください）</p>
-			<p>	議題：</p>
-			<p>	基幹システムの基本要件の確認</p>
-			<p>	基幹システムの予算枠の確認</p>
-			<p>	基幹システムの納期の確認</p>
-			<p>	弊社参加予定者3名：営業部  部長  山本 太郎</p>
-			<p>	課長  渡辺 次郎</p>
-			<p>	主任  村上 浩一</p>
-			<p>	添付資料：類似の基幹システム導入事例集</p>
-			<p>	なお、ご不明な点や質問されたい事項がございましたら、</p>
-			<p>	私村上までお知らせくださいませ。</p>
-			<p>	当日、ご多用のところご足労をお願いいたしまして大変恐縮ではございますが、</p>
-			<p>	何卒宜しくお願い申し上げます。</p>
-			<p>	＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝</p>
-			<p>	署名</p>
-			<p>	＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝</p>
+			<p>	　日時：<input type="text" class=""></p>
+			<p>	　場所：<input type="text" class=""></p>
+			<p>	　住所：<input type="text" class=""></p>
+			<p>	　議題：<input type="text" class=""></p>
+			<p>	　内容：<input type="text" class=""></p>
+			<p>	　　　：<input type="text" class=""></p>
+			<p>	　　　：<input type="text" class=""></p>
+			<p>	　弊社参加予定者：<input type="text" size="7" class="">名</p>
+			<p>	　添付資料：<input type="text" class=""></p>
+			<p>	　なお、ご不明な点や質問されたい事項がございましたら、</p>
+			<p>	　私、<input type="text" size="15" class="">までお知らせくださいませ。</p>
+			<p>	　当日、ご多用のところご足労をお願いいたしまして大変恐縮ではございますが、</p>
+			<p>	　何卒宜しくお願い申し上げます。</p>
+			<p>　　　　　　　　　　　　　　　　　　　　　　　　</p>
+			<p>	　以上、どうぞよろしくお願いいたします。</p>
+			<p>	　＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝</p>
+			<p>	　署名:<input type="text" class=""></p>
+			<p>	　＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝</p>
 		</div>
 		<!-- ここまで -->
 		
+		<div class="button-container">
 		<!-- button -->
-		<button>添付資料追加</button>
-		<button>保存</button>
-		<button>Gmailへ移動</button>
+		<button name="sendMailBtn">添付資料追加</button>
+		<button name="keepMailBtn">保存</button>
+		<button name="attacheDataBtn">Gmailへ移動</button>
 		<!-- ここまで -->
+		</div>
 	</form>
 </body>
 </html>
