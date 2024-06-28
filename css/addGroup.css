@@ -1,4 +1,5 @@
 body {
+    background-color: #006699;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,4 +44,3 @@ body {
   input[type="button"]:hover {
     background-color: #45a049;
   }
-  
