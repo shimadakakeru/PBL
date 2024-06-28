@@ -1,3 +1,7 @@
+body {
+	background-color: #006699;
+}
+
 div1 {
     border: solid 2px #000;
     width: 200px;
@@ -13,6 +17,7 @@ div1 {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
+    
     }
 div2 {
     border: solid 2px #000;

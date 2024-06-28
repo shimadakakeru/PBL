@@ -1,3 +1,7 @@
+body {
+    background-color: #006699;
+}
+
 .sl {
     display: flex;
     justify-content: flex-end;
@@ -16,8 +20,6 @@
     color: white;
     text-decoration: none;
 }
-<<<<<<< HEAD
-=======
 
 .GatherWise {
     color: white;
