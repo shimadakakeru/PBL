@@ -1,8 +1,5 @@
 body {
-<<<<<<< HEAD
     background-color: #006699;
-}
-=======
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,5 +44,3 @@ body {
   input[type="button"]:hover {
     background-color: #45a049;
   }
-  
->>>>>>> 0c2cbb5edb8f24737951c7570e0f5bb6635bae43
