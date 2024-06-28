@@ -1,5 +1,6 @@
 div1 {
     border: solid 2px #000;
+    background-color:#a4a6af;
     width: 200px;
     height: 300px;
     padding: 30px;
@@ -10,6 +11,7 @@ div1 {
     transform: translate(-50%, -50%);
     text-align: center;
     border-top-left-radius: 40px;
+    
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
@@ -47,10 +49,10 @@ div3 {
       }
 input{
     background: #0033ff;
-    
+
 
 border: soild 2px
-color #0a0ac4;
+color #006699;
 
 
-}
+}ti
