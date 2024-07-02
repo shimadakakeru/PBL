@@ -34,3 +34,12 @@ button {
     gap: 40px; /* ボタン間のスペース*/
     margin-top: 20px; /* 上部にマージンを追加して間隔を空ける */
 }
+
+input[type="text"] {
+    border: none; /* 全ての境界線を消す */
+    outline: none; /* フォーカス時のアウトラインを消す */
+}
+
+input[type="text"]:focus {
+    border-bottom: 2px solid #000; /* フォーカス時の下線の太さを変更 */
+}
