@@ -38,6 +38,7 @@ button {
 input[type="text"] {
     border: none; /* 全ての境界線を消す */
     outline: none; /* フォーカス時のアウトラインを消す */
+    text-align: center; /* テキストを中央揃えにする */
 }
 
 input[type="text"]:focus {
