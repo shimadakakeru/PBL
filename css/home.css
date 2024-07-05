@@ -18,11 +18,8 @@ body {
     box-sizing: border-box; /* パディングを含めた全体のサイズにする */
     background-color: #ffffff; /* 背景色を設定 */
     border: 1px solid #ccc; /* 枠線を設定 */
-    border-radius: 5px; /* 角丸を設定 */
     position: relative; /* 子要素の絶対位置を基準にするために必要 */
 }
-
-
 
 .header {
     display: flex;
@@ -71,7 +68,6 @@ body {
     bottom: 20px;
     right: 90px;
 }
-
 
 .invite , .add_mtg_btn{
 	display: block;
