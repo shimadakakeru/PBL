@@ -31,8 +31,13 @@ body {
     position: relative;
 }
 
+<<<<<<< HEAD
 .button-design {
     background: #006699;; /* ボタン色 */
+=======
+.button_design {
+    background: #0033ff; /* ボタン色 */
+>>>>>>> b9ffab62785efc242cf5b60548cc92d542268dbd
     color: #FFF;
     margin-left: 10px;
     order: 1; /* ログアウトボタンを最初に表示 */
@@ -147,6 +152,7 @@ body {
     margin:0 auto;/* 水平方向に中央配置 */
 }
 
+<<<<<<< HEAD
 a{
 	text-decoration:none;
 }
@@ -155,3 +161,14 @@ a{
 
 
 
+=======
+input[type="text"] {
+    border: none; /* 全ての境界線を消す */
+    outline: none; /* フォーカス時のアウトラインを消す */
+    background-color: #bee1de;
+}
+
+input[type="text"]:focus {
+    border-bottom: 2px solid #000; /* フォーカス時の下線の太さを変更 */
+}
+>>>>>>> b9ffab62785efc242cf5b60548cc92d542268dbd
