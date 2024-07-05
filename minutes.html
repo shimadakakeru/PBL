@@ -9,6 +9,9 @@
   <a href="#" class="back-button">戻る</a>
 
   <div class="container">
+    <div class="scroll">
+    <div class="border">
+    <div class="creator">作成者：</div>
     <div class="title">議事録</div>
     <div class="info">
       <div class="info-item">
@@ -24,15 +27,35 @@
     </div>
     <div class="content">
       <div class="section">
-        <div class="section-title">＜議事内容＞</div>
-        <div class="section-text"></div>
+        <div class="section-title">＜議事内容＞
+          <input type="button" onclick="location.href=''" value="ファイルをアップロード">
+        </div>
+        <textarea name="mtg_outline" rows="5" class="section-text"></textarea>
       </div>
       <div class="section">
         <div class="section-title">＜決定事項＞</div>
-        <div class="section-text"></div>
+        <textarea name="mtg_outline" rows="5" class="section-text"></textarea>
       </div>
     </div>
-    <div class="creator">作成者：</div>
+    <div class="content">
+      <div class="section">
+        <div class="section-title">＜議事内容＞</div>
+        <textarea name="mtg_outline" rows="5" class="section-text"></textarea>
+      </div>
+      <div class="section">
+        <div class="section-title">＜決定事項＞</div>
+        <textarea name="mtg_outline" rows="5" class="section-text"></textarea>
+      </div>
+    </div>
+    <div class="content">
+      <div class="section">
+        <div class="section-title">＜連絡事項＞</div>
+        <textarea name="mtg_outline" rows="5" class="section-text"></textarea>
+      </div>
+      </div>
+    </div>
+    <input type="button" onclick="location.href=''" class="save" value="保存">
+    </div>
   </div>
 </body>
 </html>

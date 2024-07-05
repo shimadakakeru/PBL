@@ -31,7 +31,7 @@ body {
     position: relative;
 }
 
-.button-design {
+.button_design {
     background: #0033ff; /* ボタン色 */
     color: #FFF;
     margin-left: 10px;
@@ -145,4 +145,14 @@ body {
     height: 300px;
     overflow: auto;
     margin:0 auto;/* 水平方向に中央配置 */
+}
+
+input[type="text"] {
+    border: none; /* 全ての境界線を消す */
+    outline: none; /* フォーカス時のアウトラインを消す */
+    background-color: #bee1de;
+}
+
+input[type="text"]:focus {
+    border-bottom: 2px solid #000; /* フォーカス時の下線の太さを変更 */
 }
