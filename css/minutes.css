@@ -134,7 +134,11 @@ body {
     outline: none;
 }
 
-
+.border2 {
+    border: none;
+    outline: none;
+    margin: 0 5px;
+}
 
 
 
