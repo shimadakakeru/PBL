@@ -2,42 +2,41 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>ホーム画面</title>
 <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
 	<div class="container">
 	<div class="header">
   		<!-- ログアウト -->
-  		<input type="button" onclick="location.href='index.html'"  class="button-design" value="ログアウト">
+  		<input type="button" onclick="location.href='index.html'"  class="button_design" value="ログアウト">
   		<h1 class="title">GatherWise</h1>
   	</div>
   <div class="soon_mtg_list">
     <details class="details">
-        <summary class="details-summary"><a href= "meetingList.html" >会議１</a></summary>
+        <summary class="details-summary"><a href= "meetingList.html" ><font color="#FFFFFF">会議1</font></a></summary>
         <p class="details-content">
-        会議名1<br>
-        日時：<br>
-        参加者：<br>
-        概要：
+          <input type="text" value="会議名1"><br>
+        日時：<input type="text" value="初期値を追加"><br>
+        参加者：<input type="text" value="初期値を追加"><br>
+        概要：<input type="text" value="初期値を追加">
+      </details>
+      <details class="details">
+        <summary class="details-summary"><a href= "meetingList.html" ><font color="#FFFFFF">会議2</font></a></summary>
+        <p class="details-content">
+          <input type="text" value="会議名2"><br>
+        日時：<input type="text" value="初期値を追加"><br>
+        参加者：<input type="text" value="初期値を追加"><br>
+        概要：<input type="text" value="初期値を追加">
         </p>
       </details>
       <details class="details">
-        <summary class="details-summary"><a href= "meetingList.html" >会議2</a></summary>
+        <summary class="details-summary"><a href= "meetingList.html" ><font color="#FFFFFF">会議3</font></a></summary>
         <p class="details-content">
-        会議名2<br>
-        日時：<br>
-        参加者：<br>
-        概要：
-        </p>
-      </details>
-      <details class="details">
-        <summary class="details-summary"><a href= "meetingList.html" >会議3</a></summary>
-        <p class="details-content">
-        会議名3<br>
-        日時：<br>
-        参加者：<br>
-        概要：
+          <input type="text" value="会議名3"><br>
+        日時：<input type="text" value="初期値を追加"><br>
+        参加者：<input type="text" value="初期値を追加"><br>
+        概要：<input type="text" value="初期値を追加">
         </p>
       </details>
 	</div>

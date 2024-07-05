@@ -13,9 +13,12 @@ body {
     width: 600px;
     background-color: #ffffff;
     padding: 20px;
-    border: 1px solid #ccc;
     border-radius: 5px;
+    
+    /*
+    border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    */
 }
 
 .title {
@@ -52,22 +55,16 @@ body {
     margin-bottom: 5px;
 }
 
+
 .section-text {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    min-height: 100px;
+  width: calc(100% - 20px);
+  height: 100px; /* 高さ */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-.creator {
-    position: absolute; /* 絶対位置指定 */
-    top: 10px; /* 枠の上端からの位置 */
-    left: 10px; /* 枠の左端からの位置 */
-    padding: 5px;
-    background-color: #ffffff;
-    border-radius: 5px;
-    white-space: nowrap; /* 文字が折り返されないようにする */
-}
 
 .back-button {
     position: absolute;
@@ -85,6 +82,62 @@ body {
     background-color: #0056b3;
 }
 
+
+/* 黒瀬編集 */
+
+
+/* スクロールバー */
+.scroll{
+    width: 520px;
+    height: 400px;
+    overflow: auto;
+    margin:0 auto;/* 水平方向に中央配置 */
+    padding : 40px;
+}
+
+
+.save {
+    font-size: 16px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.border{
+	border-top: solid 1px #000000; /*枠線(上部)指定*/
+    border-right: solid 1px #000000; /*枠線(右部)指定*/
+    border-bottom: solid 1px #000000; /*枠線(下部)指定*/
+    border-left: solid 1px #000000; /*枠線(左部)指定*/
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*
+.creator {
+    position: absolute;  絶対位置指定 
+    top: 10px;  枠の上端からの位置 
+    left: 10px;  枠の左端からの位置 
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    white-space: nowrap;  文字が折り返されないようにする 
+}
+*/
+
+
+/*
+.section-text {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-height: 100px;
+}
+
+
+
 .content::after {
     content: '';
     display: block;
@@ -95,3 +148,4 @@ body {
     height: 1px;
     background-color: #ccc;
 }
+*/
