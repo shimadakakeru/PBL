@@ -53,6 +53,9 @@ body {
 .section-title {
     font-weight: bold;
     margin-bottom: 5px;
+    padding: 10px;
+    border-top: 1px solid #333; /* 線の太さ */
+    width: 472px;/* 線の長さ指定(タグの横幅を指定する) */
 }
 
 
@@ -103,6 +106,13 @@ body {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+    width: 150px;
+    height: 50px;
+}
+
+.save_btn{
+	display: flex;
+    justify-content: center;
 }
 
 .border{
@@ -113,6 +123,25 @@ body {
     padding: 10px;
     margin-bottom: 10px;
 }
+
+
+.section-text{
+	/* 枠線を消す */
+    border: none;
+    /* 右下の//(サイズ変更機能)を消す */
+    resize: none;
+    /* フォーカスした際の青い枠線を消す */
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
 
 
 /*
