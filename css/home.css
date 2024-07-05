@@ -32,7 +32,7 @@ body {
 }
 
 .button-design {
-    background: #0033ff; /* ボタン色 */
+    background: #006699;; /* ボタン色 */
     color: #FFF;
     margin-left: 10px;
     order: 1; /* ログアウトボタンを最初に表示 */
@@ -50,7 +50,7 @@ body {
 
 /* ボタンのデザイン */
 .button-design, .move_mtg_list_btn {
-  background: #0033ff;/*ボタン色*/
+  background: #006699;;/*ボタン色*/
   color: #FFF;
   width: 100px;
   height: 60px;
@@ -108,10 +108,10 @@ body {
     padding: 15px;
     transition: .3s;
     transform: translateY(10px);
-    background-color: #00a5a0;
+    background-color: #4682b4;
     font-size: 20px;
     font-weight: bold;
-    color: #fff;
+    color: #FFFFFF;
     width:500px;/* 横幅を指定 */
     margin:0 auto;/* 水平方向に中央配置 */
     text-align: center;
@@ -132,9 +132,9 @@ body {
 .details-content {
     padding: 20px;
     background-color: #bee1de;
-    border-bottom: 2px solid #00a5a0;
-    border-left: 2px solid #00a5a0;
-    border-right: 2px solid #00a5a0;
+    border-bottom: 2px solid ##ffffff;
+    border-left: 2px solid ##ffffff;
+    border-right: 2px solid ##ffffff;
     width:494px;
     margin:0 auto;/* 水平方向に中央配置 */
 }
@@ -146,3 +146,12 @@ body {
     overflow: auto;
     margin:0 auto;/* 水平方向に中央配置 */
 }
+
+a{
+	text-decoration:none;
+}
+
+
+
+
+
