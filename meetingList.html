@@ -9,25 +9,68 @@
 <body>
     <div class="container">
         <h2>会議一覧</h2>
-        <div class="meeting">
-            <h3>会議A</h3>
+            <div class="meeting1">
+            <a href="#popup1" class="meeting-popup"><h3>会議A</h3></a>
             <p>タスク名: Project Kickoff</p>
             <p>備考: Initial project discussion</p>
             <p>開催日時: 2024-06-21</p>
             <p>場所: Room 101</p>
             <p>概要: Discuss project plan</p>
-            <button>削除</button>
         </div>
-        <div class="meeting">
-            <h3>会議B</h3>
+        <section class="popup" id="popup1">
+            <div class="popup__container">
+                <h4>会議Aの詳細</h4>
+                <p>タスク名: Project Kickoff</p>
+                <p>備考: Initial project discussion</p>
+                <p>開催日時: 2024-06-21</p>
+                <p>場所: Room 101</p>
+                <p>概要: Discuss project plan</p>
+                <a href="#" class="popup__close">&times;</a>
+            </div>
+        </section>
+
+        <div class="meeting2">
+            <a href="#popup2" class="meeting-popup"><h3>会議B</h3></a>
             <p>タスク名: Design Review</p>
             <p>備考: Review design specs</p>
             <p>開催日時: 2024-06-22</p>
             <p>場所: Room 202</p>
             <p>概要: Finalize design</p>
-            <button>確定</button>
         </div>
-        <button>戻る</button>
+        <section class="popup" id="popup2">
+            <div class="popup__container">
+                <h4>会議Bの詳細</h4>
+                <p>タスク名: Design Review</p>
+                <p>備考: Review design specs</p>
+                <p>開催日時: 2024-06-22</p>
+                <p>場所: Room 202</p>
+                <p>概要: Finalize design</p>
+                <a href="#" class="popup__close">&times;</a>
+            </div>
+        </section>
+
+        <div class="delMtgBtn">
+            <button onclick="confirmDelete(this)">削除</button>
+        </div>
+
+        <br><button>戻る</button>
     </div>
+
+    <script>
+        function confirmDelete(button) {
+            if (button.textContent === '削除') {
+                button.textContent = '確認';
+            } else if (button.textContent === '確認') {
+                if (window.confirm('本当に削除しますか？')) {
+                    const meeting = button.closest('.meeting');
+                    if (meeting) {
+                        meeting.remove();
+                    }
+                }
+                // ユーザーがキャンセルした場合も、削除した場合もテキストを元に戻す
+                button.textContent = '削除';
+            }
+        }
+    </script>
 </body>
 </html>
