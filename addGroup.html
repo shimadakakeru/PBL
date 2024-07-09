@@ -1,5 +1,5 @@
-<!doctype html>
-<html>
+<!Doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
 <title></title>
@@ -9,14 +9,14 @@
     <div class="container">
         <h1>グループ作成</h1>
         <p>会社名</p>
-        <input type="text" required name="groupName">
+        <input type="text" required name="group_name">
         <p>メールアドレス</p>
-        <input type="text" name="mailAddress" required>
+        <input type="text" name="mail_address" required>
         <p>ユーザー名</p>
-        <input type="text" name="userName" required>
+        <input type="text" name="user_name" required>
         <p>パスワード</p>
         <input type="password" name="pass" required><br>
-        <input type="button" onclick="location.href='compRegistar.html'" value="決定">
+        <input type="button" onclick="location.href='compRegistar.html'" class="regist_btn" value="決定">
     </div>
 </body>
 </html>

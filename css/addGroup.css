@@ -1,4 +1,5 @@
 body {
+    background-color: #006699;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +35,7 @@ body {
   
   input[type="button"] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #0077ff;
     color: white;
     border: none;
     cursor: pointer;
@@ -43,4 +44,3 @@ body {
   input[type="button"]:hover {
     background-color: #45a049;
   }
-  

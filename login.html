@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
 <title>ログイン</title>
@@ -9,12 +9,12 @@
 <div class="container">
   <h1>ログイン</h1>
   <p>会社ID</p>
-  <input type="text" name="groupID">
+  <input type="text" name="group_id">
   <p>ユーザー名</p>
-  <input type="text" name="userName">
+  <input type="text" name="user_name">
   <p>パスワード</p>
   <input type="password" name="pass"><br>
-  <input type="button" onclick="location.href='home.html'" value="ログイン">
+  <input type="button" onclick="location.href='home.html'" class="move_home_btn" value="ログイン">
 </div>
 </body>
 </html>

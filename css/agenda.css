@@ -6,6 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
+    background-color: #006699;
 }
 
 .title {
@@ -54,20 +55,29 @@ body {
 
 .two_button {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* 均等な間隔でコンテンツを横並びにする */
     width: 30%;/* ボタンの大きさ(幅) */
     max-width: 800px;
 }
 
+.save{
+	margin-right: 50px;
+}
+
 .two_button input {
     width: 48%; /* ボタンの幅(大きさ)を調整 */
-    padding: 10px;
+    padding: 10px; /* ボタン縦幅 */
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #0033ff;
     color: #fff;
     cursor: pointer;
+    margin-right: 90px; /* 追加: ボタンの間にマージンを追加 */
+}
+
+.two_button input:last-child {
+    margin-right: 0; /* 追加: 最後のボタンのマージンをリセット */
 }
 
 .two_button input:hover {
@@ -80,9 +90,9 @@ body {
     width: 100%;
 }
 
-p{
+/*p{
 	display: inline-block;
-}
+}*/
 
 
 /* 入力フィールド */
@@ -90,13 +100,12 @@ input[type="text"],
 input[type="date"],
 input[type="time"],
 textarea{
-  width: calc(80% - 10px);
+  width: calc(100% - 20px);
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-↑を修正
 
 /* 日付項目 */
 label {

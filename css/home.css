@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: #006699;
   }
 
 .container {
@@ -17,11 +18,8 @@ body {
     box-sizing: border-box; /* パディングを含めた全体のサイズにする */
     background-color: #ffffff; /* 背景色を設定 */
     border: 1px solid #ccc; /* 枠線を設定 */
-    border-radius: 5px; /* 角丸を設定 */
     position: relative; /* 子要素の絶対位置を基準にするために必要 */
 }
-
-
 
 .header {
     display: flex;
@@ -30,8 +28,8 @@ body {
     position: relative;
 }
 
-.button-design {
-    background: #0033ff; /* ボタン色 */
+.button_design {
+    background: #006699;; /* ボタン色 */
     color: #FFF;
     margin-left: 10px;
     order: 1; /* ログアウトボタンを最初に表示 */
@@ -48,15 +46,15 @@ body {
 }
 
 /* ボタンのデザイン */
-.button-design, .meetingList {
-  background: #0033ff;/*ボタン色*/
+.button_design, .move_mtg_list_btn {
+  background: #006699;;/*ボタン色*/
   color: #FFF;
   width: 100px;
   height: 60px;
 }
 
 
-.meetingList {
+.move_mtg_list_btn {
   display: block; /* ボタンをブロックレベル要素に変更 */
   margin: 0 auto; /* ボタン全体を中央に配置 */
 }
@@ -71,8 +69,7 @@ body {
     right: 90px;
 }
 
-
-.invite , .addMeeting{
+.invite , .add_mtg_btn{
 	display: block;
 	margin: 5px 0; /* ボタンの上下に余白を追加 */
     width: 40px; /* 画像の右端からの距離 */
@@ -80,7 +77,7 @@ body {
 }
 
 /* 画像のスタイル */
-.invite img, .addMeeting img {
+.invite img, .add_mtg_btn img {
     width: 120px; /* 画像をボタンのサイズに合わせる */
     height: 100px;
 }
@@ -107,10 +104,10 @@ body {
     padding: 15px;
     transition: .3s;
     transform: translateY(10px);
-    background-color: #00a5a0;
+    background-color: #4682b4;
     font-size: 20px;
     font-weight: bold;
-    color: #fff;
+    color: #FFFFFF;
     width:500px;/* 横幅を指定 */
     margin:0 auto;/* 水平方向に中央配置 */
     text-align: center;
@@ -131,17 +128,31 @@ body {
 .details-content {
     padding: 20px;
     background-color: #bee1de;
-    border-bottom: 2px solid #00a5a0;
-    border-left: 2px solid #00a5a0;
-    border-right: 2px solid #00a5a0;
+    border-bottom: 2px solid ##ffffff;
+    border-left: 2px solid ##ffffff;
+    border-right: 2px solid ##ffffff;
     width:494px;
     margin:0 auto;/* 水平方向に中央配置 */
 }
 
 /* スクロールバー */
-.menu{
+.soon_mtg_list{
     width: 520px;
     height: 300px;
     overflow: auto;
     margin:0 auto;/* 水平方向に中央配置 */
+}
+
+a{
+	text-decoration:none;
+}
+
+input[type="text"] {
+    border: none; /* 全ての境界線を消す */
+    outline: none; /* フォーカス時のアウトラインを消す */
+    background-color: #bee1de;
+}
+
+input[type="text"]:focus {
+    border-bottom: 2px solid #000; /* フォーカス時の下線の太さを変更 */
 }

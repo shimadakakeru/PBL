@@ -1,5 +1,9 @@
+body{
+    background-color: #006699
+}
 div1 {
     border: solid 2px #000;
+    background-color:#a4a6af;
     width: 200px;
     height: 300px;
     padding: 30px;
@@ -13,9 +17,11 @@ div1 {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
+    font-size: 30px;
     }
 div2 {
     border: solid 2px #000;
+    background-color:#a4a6af;
     width: 200px;
     height: 300px;
     padding: 30px;
@@ -28,10 +34,12 @@ div2 {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
+    font-size: 30px;
 
         }
 div3 {
     border: solid 2px #000;
+    background-color:#a4a6af;
     width: 200px;
     height: 300px;
     padding: 30px;
@@ -44,8 +52,13 @@ div3 {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
+    font-size: 30px;
       }
-footer{
-border: soild 2px #4034ea
-
+input{
+    background: #0033ff;
+    border: soild 2px
+    color #006699;
 }
+
+
+
