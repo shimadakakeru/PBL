@@ -2,32 +2,35 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>会議メニュー</title>
     <link rel="stylesheet" href="css/meetingMenu.css">
 </head>
 <body>
     <div class="container">
-        <header>
-        </header>
-        <main>
-            <div1 class="menu-item">
-                <a>会議前</a><br/>
-                <a class="menu-mini">・案内メール</a><br/>
-                <a class="menu-mini">・アジェンダ</a>
-            </div1>
-            <div2 class="menu-item">
-                <a>会議中</a><br/>
-                <a class="menu-mini">・録音</a><br/>
-                <a class="menu-mini">・アラート</a>
+    
+            <div class="div1">
+            	<p></p>
+                <a>会議前</a><br>
+                <p></p>
+                <a href="invite.html" class="menu-mini">・案内メール</a><br/>
+                <a href="agenda.html" class="menu-mini">・アジェンダ</a>
+            </div>
+            
+            <div class="div2">
+            	<p></p>
+                <a>会議中</a><br>
+                <p></p>
+                <a href="meeting.html" class="menu-rokuon">・録音</a><br/>
+                <a href="meeting.html" class="menu-araato">・アラート</a>
 
-            </div2>
-            <div3 class="menu-item">
-                <a>会議後</a><br/>
-                <a class="menu-mini">・議事録</a><br/>
-                <a class="menu-mini">・</a>
-            </div3>
-        </main>
+            </div>
+            <div class="div3">
+            	<p></p>
+                <a>会議後</a><br>
+                <p></p>
+                <a href="minutes.html" class="menu-giji">・議事録</a><br/>
+            </div>
+            
         <footer>
             <input type="button" onclick="location.href='meetingList.html'" value="戻る">
         </footer>
