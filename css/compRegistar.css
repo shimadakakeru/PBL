@@ -7,12 +7,16 @@ body {
 
 div {
 	position: absolute;
-	top: 50%;
+	top: 65%;
 	left: 50%;
 	-webkit-transform : translate(-50%,-50%);
 	transform : translate(-50%,-50%);
-	width: 500px;
 	text-align: center;/*一応BOX内の文字も中央寄せ*/
+	width: 330px;
+  	padding: 100px;
+  	background-color: #ffffff;
+  	border: 1px solid #ccc;
+  	border-radius: 5px;
 }
 
 /* ボタンのデザイン */
@@ -26,4 +30,13 @@ input{
 
 .font {
 	color: #FFFFFF;
+}
+
+.regist_msg{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.regist_msg2{
+	margin-top: -2px;
 }
